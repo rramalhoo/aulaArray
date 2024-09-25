@@ -31,7 +31,7 @@ alert(aluno.notaFinal); // Exibe a nota final do aluno
 
 // PROPRIEDADES E MÉTODOS DO ARRAY
 // 1 - DIMENSÃO DO ARRAY
-alert(`metodo length: ${carros.length}`); // Exibe o número de elementos dentro do array 'carros'
+alert(`metodo length: ${carros.length}`); // .length exibe o número de elementos dentro do array 'carros'
 
 // 2 - Inserindo novos elementos no array
 carros.push('Gol')
@@ -48,3 +48,6 @@ alert(`metodo shift (removendo o primeiro elemento): ${carros}`);
 // 5 - Adicionar novo elemento no topo da lista
 carros.unshift('Gol')
 alert(`metodo unshift (adicionando um elemento no topo da lista): ${carros}`)
+
+// 6 - Une todos os elementos do array em uma string
+alert(`metodo join (une os elementos do array em uma strig e muda a saida dos mesmos): ${carros}`.join(" - ")); // retorno item1 - item2 - item3
