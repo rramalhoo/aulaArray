@@ -35,4 +35,16 @@ alert(`metodo length: ${carros.length}`); // Exibe o número de elementos dentro
 
 // 2 - Inserindo novos elementos no array
 carros.push('Gol')
-alert(carros);
+alert(`metodo push (inserir novos elementos): ${carros}`);
+
+// 3 - Remover o ultimo elemento
+carros.pop();
+alert(`metodo pop (removendo ultimo elemento): ${carros}`)
+
+// 4 - Remover o primeiro elemento subindo os demais
+carros.shift();
+alert(`metodo shift (removendo o primeiro elemento): ${carros}`);
+
+// 5 - Adicionar novo elemento no topo da lista
+carros.unshift('Gol')
+alert(`metodo unshift (adicionando um elemento no topo da lista): ${carros}`)
